@@ -1,3 +1,22 @@
 #main {
     margin-top: 60px;
 }
+
+.centered {
+  display: block;
+  margin: auto;
+  margin-top: 200px;
+  vertical-align: middle;
+}
+
+html {
+  background: url(/backgrounds/new_york.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.no-background {
+  background: transparent;
+}
