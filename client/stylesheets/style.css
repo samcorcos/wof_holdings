@@ -17,6 +17,6 @@ html {
   background-size: cover;
 }
 
-.no-background {
-  background: transparent;
+body {
+  background-color: transparent;
 }
