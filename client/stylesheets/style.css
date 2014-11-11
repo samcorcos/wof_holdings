@@ -6,7 +6,6 @@
   display: block;
   margin: auto;
   margin-top: 200px;
-  vertical-align: middle;
 }
 
 html {
@@ -19,4 +18,8 @@ html {
 
 body {
   background-color: transparent;
+}
+
+.dropped {
+  margin-top: 180;
 }
