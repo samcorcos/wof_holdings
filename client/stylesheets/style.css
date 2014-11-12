@@ -3,23 +3,28 @@
 }
 
 .centered {
-  display: block;
-  margin: auto;
-  margin-top: 200px;
-}
-
-html {
-  background: url(/backgrounds/new_york.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  position: absolute;
+  left: 50%;
+  margin-left:-198px;
+  top: 50%;
+  margin-top: -250px;
 }
 
 body {
-  background-color: transparent;
+  background: url(/backgrounds/new_york.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
+/* body {
+  background-color: transparent;
+} */
+
 .dropped {
-  margin-top: 180;
+  margin-top: 180px;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0px;
+  }
 }
