@@ -2,7 +2,7 @@ Meteor.startup(function() {
   var id, id2;
   if (Meteor.users.find().count() === 0) {
     id = Accounts.createUser({
-      username: "sam",
+      username: "Sam Corcos",
       email: "sam@wofholdings.com",
       password: "samadmin",
       profile: {
@@ -12,7 +12,7 @@ Meteor.startup(function() {
       }
     });
     id2 = Accounts.createUser({
-      username: "leon",
+      username: "Leon Corcos",
       email: "leon@wofholdings.com",
       password: "leonadmin",
       profile: {
