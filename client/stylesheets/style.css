@@ -54,3 +54,8 @@ a:focus.not-hyper {
 .one-page {
   padding-bottom: 50rem;
 }
+
+.carousel {
+  width:50%;
+  max-width: 667px ;
+}
