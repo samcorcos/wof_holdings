@@ -1,1 +1,1 @@
-Meteor.subscribe('properties');
+// Meteor.subscribe('properties');

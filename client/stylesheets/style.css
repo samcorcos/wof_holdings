@@ -50,3 +50,7 @@ a:focus.not-hyper {
   color: #555555;
   text-decoration: none;
 }
+
+.one-page {
+  padding-bottom: 50rem;
+}

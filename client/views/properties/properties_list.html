@@ -2,7 +2,9 @@
   <div class="container">
     <h1>Properties</h1>
     {{#each properties}}
-      {{> property}}
+      <div class="row jumbotron">
+        {{> property}}
+      </div>
     {{/each}}
   </div>
 </template>
