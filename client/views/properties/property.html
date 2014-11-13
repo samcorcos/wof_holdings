@@ -1,6 +1,6 @@
 <template name="property">
   <div class="row jumbotron">
-    <h2>{{address}}</h2>
+    <h2><a class="not-hyper" href="{{pathFor 'propertyPage'}}">{{address}}</a></h2>
     <p>Purchase: {{purchasePrice}}</p>
     <p>Rehabilitation: {{rehabCost}}</p>
   </div>
